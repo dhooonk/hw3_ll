@@ -3,10 +3,15 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   #root 'lotto#index'
-   get 'lotto/index'=>'lotto#index'
-   get 'lotto/mouse'=>'lotto#mouse'
-
+   #root 'KHUcafe#index'
+   get 'khu/index'=>'khu#index'
+   get 'khu/dnwjddnjs'=>'khu#dnwjddnjs'
+   get 'khu/wpdlrltnrtk'=>'khu#wpdlrltnrtk'
+   get 'khu/tlsdlqtodtpalsk'=>'khu#tlsdlqtodtpalsk'
+   get 'khu/cjdcnsrhktndnjs'=>'khu#cjdcnsrhktndnjs'
+   get 'khu/ajtwoddltkwkcjfja'=>'khu#ajtwoddltkwkcjfja'
+   get 'khu/32'=>'khu#32'
+   get 'khu/dmddydghkgkrrhk'=>'khu#dmddydghkgkrrhk'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

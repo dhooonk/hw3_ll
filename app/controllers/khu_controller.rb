@@ -1,4 +1,4 @@
-class LottoController < ApplicationController
+class KhuController < ApplicationController
 require 'open-uri'
 require 'json'
 
